@@ -22,9 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		954EBF2A24EA5EF90028779C /* UIFont+DY.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF2324EA5EF90028779C /* UIFont+DY.m */; };
-		954EBF2B24EA5EF90028779C /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF2624EA5EF90028779C /* UIView+Line.m */; };
-		954EBF2C24EA5EF90028779C /* DYFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF2924EA5EF90028779C /* DYFactory.m */; };
+		954EBF4224EA918B0028779C /* UIFont+DY.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF3B24EA918B0028779C /* UIFont+DY.m */; };
+		954EBF4324EA918B0028779C /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF3E24EA918B0028779C /* UIView+Line.m */; };
+		954EBF4424EA918B0028779C /* DYFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF4124EA918B0028779C /* DYFactory.m */; };
 		97352AC3ABC22FADBAC10044 /* Pods_DYFactoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF73D8BDA5EE6877EAC59E /* Pods_DYFactoryKit_Example.framework */; };
 		F3D60CBC30A7CF28E29ABAE2 /* Pods_DYFactoryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409985C290E0E66C7013790 /* Pods_DYFactoryKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -67,12 +67,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		954EBF2324EA5EF90028779C /* UIFont+DY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DY.m"; sourceTree = "<group>"; };
-		954EBF2424EA5EF90028779C /* UIFont+DY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DY.h"; sourceTree = "<group>"; };
-		954EBF2624EA5EF90028779C /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
-		954EBF2724EA5EF90028779C /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
-		954EBF2824EA5EF90028779C /* DYFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYFactory.h; sourceTree = "<group>"; };
-		954EBF2924EA5EF90028779C /* DYFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYFactory.m; sourceTree = "<group>"; };
+		954EBF3B24EA918B0028779C /* UIFont+DY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DY.m"; sourceTree = "<group>"; };
+		954EBF3C24EA918B0028779C /* UIFont+DY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DY.h"; sourceTree = "<group>"; };
+		954EBF3E24EA918B0028779C /* UIView+Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		954EBF3F24EA918B0028779C /* UIView+Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		954EBF4024EA918B0028779C /* DYFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYFactory.h; sourceTree = "<group>"; };
+		954EBF4124EA918B0028779C /* DYFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYFactory.m; sourceTree = "<group>"; };
 		A61B3AF3550399D9E2089176 /* Pods-DYFactoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYFactoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-DYFactoryKit_Example/Pods-DYFactoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B409985C290E0E66C7013790 /* Pods_DYFactoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYFactoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E3DD0777579EA22843C990 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -107,7 +107,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				954EBF2124EA5EF90028779C /* Classes */,
+				954EBF3924EA918B0028779C /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for DYFactoryKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -195,31 +195,32 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		954EBF2124EA5EF90028779C /* Classes */ = {
+		954EBF3924EA918B0028779C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				954EBF2224EA5EF90028779C /* Category */,
-				954EBF2824EA5EF90028779C /* DYFactory.h */,
-				954EBF2924EA5EF90028779C /* DYFactory.m */,
+				954EBF3A24EA918B0028779C /* Category */,
+				954EBF4024EA918B0028779C /* DYFactory.h */,
+				954EBF4124EA918B0028779C /* DYFactory.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
-		954EBF2224EA5EF90028779C /* Category */ = {
+		954EBF3A24EA918B0028779C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				954EBF2324EA5EF90028779C /* UIFont+DY.m */,
-				954EBF2424EA5EF90028779C /* UIFont+DY.h */,
-				954EBF2524EA5EF90028779C /* UIView+DY */,
+				954EBF3B24EA918B0028779C /* UIFont+DY.m */,
+				954EBF3C24EA918B0028779C /* UIFont+DY.h */,
+				954EBF3D24EA918B0028779C /* UIView+DY */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		954EBF2524EA5EF90028779C /* UIView+DY */ = {
+		954EBF3D24EA918B0028779C /* UIView+DY */ = {
 			isa = PBXGroup;
 			children = (
-				954EBF2624EA5EF90028779C /* UIView+Line.m */,
-				954EBF2724EA5EF90028779C /* UIView+Line.h */,
+				954EBF3E24EA918B0028779C /* UIView+Line.m */,
+				954EBF3F24EA918B0028779C /* UIView+Line.h */,
 			);
 			path = "UIView+DY";
 			sourceTree = "<group>";
@@ -423,11 +424,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DYAppDelegate.m in Sources */,
-				954EBF2C24EA5EF90028779C /* DYFactory.m in Sources */,
+				954EBF4424EA918B0028779C /* DYFactory.m in Sources */,
 				6003F5A7195388D20070C39A /* DYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				954EBF2B24EA5EF90028779C /* UIView+Line.m in Sources */,
-				954EBF2A24EA5EF90028779C /* UIFont+DY.m in Sources */,
+				954EBF4324EA918B0028779C /* UIView+Line.m in Sources */,
+				954EBF4224EA918B0028779C /* UIFont+DY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
