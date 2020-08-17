@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, DYViewLineType) {
-    DYViewLineTypeNone,
-    DYViewLineTypeTop,
-    DYViewLineTypeLeft,
-    DYViewLineTypeBottom,
-    DYViewLineTypeeRight,
-    DYViewLineTypeVerticalCenter,
-    DYViewLineTypeHorizontalCenter
+typedef NS_ENUM(NSInteger, DYLineType) {
+    DYLineTypeNone,
+    DYLineTypeTop,
+    DYLineTypeLeft,
+    DYLineTypeBottom,
+    DYLineTypeRight,
+    DYLineTypeVerticalCenter,
+    DYLineTypeHorizontalCenter
 };
 NS_ASSUME_NONNULL_BEGIN
 
