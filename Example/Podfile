@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DYFactoryKit_Example' do
+  pod 'DYFactoryKit', :path => '../'
+
+  target 'DYFactoryKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
