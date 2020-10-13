@@ -1,5 +1,5 @@
 PODS:
-  - DYFactoryKit (0.1.0)
+  - DYFactoryKit (0.1.2)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DYFactoryKit: a2551d6571b5ca42c2e4a81f2bdd9ad85a1c36e0
+  DYFactoryKit: dedc2bf6cbaeae4e71d8c7b6f9e0be44ae732ed2
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
 
 PODFILE CHECKSUM: b9c482c69f6faefbc058b860e3231891e9e9e33d
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

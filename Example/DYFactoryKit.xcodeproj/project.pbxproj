@@ -25,6 +25,7 @@
 		954EBF9E24EAEDFC0028779C /* UIFont+DY.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF9624EAEDFC0028779C /* UIFont+DY.m */; };
 		954EBF9F24EAEDFC0028779C /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF9924EAEDFC0028779C /* UIView+Line.m */; };
 		954EBFA024EAEDFC0028779C /* DYFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 954EBF9D24EAEDFC0028779C /* DYFactory.m */; };
+		9590ECA925362B6E001124BD /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9590ECA825362B6D001124BD /* UIView+Shadow.m */; };
 		97352AC3ABC22FADBAC10044 /* Pods_DYFactoryKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCF73D8BDA5EE6877EAC59E /* Pods_DYFactoryKit_Example.framework */; };
 		F3D60CBC30A7CF28E29ABAE2 /* Pods_DYFactoryKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409985C290E0E66C7013790 /* Pods_DYFactoryKit_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,8 @@
 		954EBF9B24EAEDFC0028779C /* DYFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYFactory.h; sourceTree = "<group>"; };
 		954EBF9C24EAEDFC0028779C /* DYFactoryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYFactoryKit.h; sourceTree = "<group>"; };
 		954EBF9D24EAEDFC0028779C /* DYFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYFactory.m; sourceTree = "<group>"; };
+		9590ECA725362B6D001124BD /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		9590ECA825362B6D001124BD /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
 		A61B3AF3550399D9E2089176 /* Pods-DYFactoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYFactoryKit_Example.release.xcconfig"; path = "Target Support Files/Pods-DYFactoryKit_Example/Pods-DYFactoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B409985C290E0E66C7013790 /* Pods_DYFactoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYFactoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E3DD0777579EA22843C990 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -201,8 +204,8 @@
 			children = (
 				954EBF9524EAEDFC0028779C /* Category */,
 				954EBF9B24EAEDFC0028779C /* DYFactory.h */,
-				954EBF9C24EAEDFC0028779C /* DYFactoryKit.h */,
 				954EBF9D24EAEDFC0028779C /* DYFactory.m */,
+				954EBF9C24EAEDFC0028779C /* DYFactoryKit.h */,
 			);
 			name = Classes;
 			path = ../DYFactoryKit/Classes;
@@ -221,6 +224,8 @@
 		954EBF9824EAEDFC0028779C /* UIView+DY */ = {
 			isa = PBXGroup;
 			children = (
+				9590ECA725362B6D001124BD /* UIView+Shadow.h */,
+				9590ECA825362B6D001124BD /* UIView+Shadow.m */,
 				954EBF9924EAEDFC0028779C /* UIView+Line.m */,
 				954EBF9A24EAEDFC0028779C /* UIView+Line.h */,
 			);
@@ -430,6 +435,7 @@
 				6003F5A7195388D20070C39A /* DYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				954EBF9F24EAEDFC0028779C /* UIView+Line.m in Sources */,
+				9590ECA925362B6E001124BD /* UIView+Shadow.m in Sources */,
 				954EBF9E24EAEDFC0028779C /* UIFont+DY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
